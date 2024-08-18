@@ -48,6 +48,7 @@ The resolution involved reverting the load balancer configuration to its previou
 Corrective and Preventative Measures
 Improvements:
 
+
 Configuration Management: Improve the configuration management process to include stricter validation checks before deployment, particularly for critical components like the load balancer.
 Decommissioning Process: Enhance the server decommissioning process to ensure all references to decommissioned resources are removed from active configurations.
 Monitoring and Alerts: Implement more granular monitoring of load balancer traffic and health checks to catch similar issues more quickly.
@@ -57,3 +58,5 @@ Task List:
  Update the decommissioning checklist to include steps for removing all related configurations from active components.
  Deploy additional monitoring for load balancer health, focusing on traffic routing and server availability.
  Conduct a post-incident review training session for the engineering team to cover lessons learned and improve response strategies for future incidents.
+ ![image](https://github.com/user-attachments/assets/a64bbe44-ce3d-4182-a221-24a08326a5b0)
+
